@@ -1,0 +1,27 @@
+{
+  "name": "aws-lambda-log",
+  "version": "0.1.0",
+  "description": "A clean and simple logger for lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starak/aws-lambda-log.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "log",
+    "logger",
+    "debug",
+    "level"
+  ],
+  "author": "starak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starak/aws-lambda-log/issues"
+  },
+  "homepage": "https://github.com/starak/aws-lambda-log#readme"
+}
