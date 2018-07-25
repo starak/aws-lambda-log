@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A clean and simple logger for lambda",
   "main": "index.js",
   "scripts": {
