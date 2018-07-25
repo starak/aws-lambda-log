@@ -18,8 +18,9 @@ function getOutput(type){
 }
 
 function write(type, msg, prefix, level){
+  const idStr = prefix ? ` RequestId: ${prefix}` : '';
   if(levels[type] <= level) {
-    getOutput(type).write(`${type.toUpperCase()} RequestId: ${prefix} ${msg}\n`);
+    getOutput(type).write(`${type.toUpperCase()}${idStr} ${msg}\n`);
   }
 }
 
