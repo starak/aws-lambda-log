@@ -13,10 +13,10 @@ module.exports = (event, context) => {
   logger.context = context;
   ...
 }
-``` 
+```
 
 ### Log Level
 
 To set the log level use the environment variable `LOG_LEVEL` 
-and set its value to [`error` | `warn` | `info` | `verbose` | `debug` | `silly`]. <br>
+and set its value to [`error` | `warn` | `info` | `debug` | `silly`]. <br>
 Default log level is `info`;
